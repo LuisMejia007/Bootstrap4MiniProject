@@ -3,3 +3,28 @@
     text-align: center; 
     background: none;
 }
+
+
+.lightSection {
+    
+    background-color: #eceeef; 
+    padding: 2em;
+    
+}
+
+
+div.carousel-caption{ 
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 7px;
+}
+
+div.carousel-inner img { 
+    width: 100%;
+}
+
+nav.navbar.navbar-expand-lg{ 
+    width: 100%; 
+    margin: 0; 
+    z-index: 1; 
+    position: fixed;
+}
