@@ -28,3 +28,21 @@ nav.navbar.navbar-expand-lg{
     z-index: 1; 
     position: fixed;
 }
+
+.darkSection {
+    background-color: #cccccc;
+    padding: 2rem;
+}
+
+div.home-button-wrapper { 
+    display: block;
+    width: 100%;
+    margin: 20px 0 auto;
+    padding: 2rem;
+}
+
+button.homeBtn { 
+    display: block;
+    margin: auto;
+    padding: 1rem 5rem;
+}
