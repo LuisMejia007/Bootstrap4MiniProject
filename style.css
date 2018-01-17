@@ -46,3 +46,18 @@ button.homeBtn {
     margin: auto;
     padding: 1rem 5rem;
 }
+
+/********** Home Modal ********/
+h5.modal-title { 
+    margin: auto;
+}
+
+div.gear-form-wrapper {
+    
+    margin: 2em 0 auto;
+    align-content: center;
+}
+form.gearForm { 
+/*    text-align: center;*/
+}
+

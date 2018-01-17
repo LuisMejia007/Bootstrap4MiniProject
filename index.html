@@ -127,12 +127,62 @@
                 <div class = "row"> 
                     <div class = "col-sm-12">
                         <div class = "home-button-wrapper">
-                            <button type = "button" class = "btn btn-danger homeBtn"> Get Gear! </button>
+                            <button type = "button" class = "btn btn-danger homeBtn" data-toggle = "modal" data-target = "#get-gear-modal"> Get Gear! </button>
                         </div>
                     </div>
                 </div>
             </div>
+            
+            <!--- Section 3 ---> 
+            <div class = "lightSection">
+                <div class = "row">
+                    <div class = "col-md-4 col-sm-12"></div>
+                    <div class = "col-md-4 col-sm-12"></div>
+                    <div class = "col-md-4 col-sm-12"></div>
+                </div>
+            </div>
         </div>
+        
+        <!-- Get Gear Modal --> 
+        <div class = "modal fade" id = "get-gear-modal" tabindex = "-1" role = "dialog">
+              <div class = "modal-dialog" role = "document">
+                  <div class = "modal-content">
+                      <div class = "modal-header">
+                          <h5 class = "modal-title"> Get Exclusive Content</h5>
+                          <button type = "button" class = "close" data-dismiss= "modal" data-target = "#get-gear-modal" aria-label ="Close"> <span aria-hidden = "true"> &times;</span></button>
+                      </div>
+                      <div class= "modal-body">
+                          <div class = "container-fluid">
+                              <div class = "row">
+                                  <div class = "col-sm-12">
+                                      <div class = "kickflip_banner_wrapper">
+                                          <img class = "img-fluid" src = "assets/KFS_modal.png" alt = "Kickflip Banner Logo"> 
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class = "row">
+                                  <div class = "col-sm-12">
+                                      <div class = "gear-form-wrapper">
+                                          <div class = "form-group">
+                                              <label for = "formName">What's Your Name?</label>
+                                              <br>
+                                              <input type = "text" class = "form-control" placeholder = "Name" id = "formName"> 
+                                              <br> 
+                                                <label for="formEmail">Where should we send your cool content?</label>
+                                              <br>
+                                              <input type = "email" class = "form-control" placeholder = "Email" id ="formEmail">
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class = "modal-footer">
+                          <button type = "button" class = "btn btn-primary" > Submit </button>
+                          <button type = "button" class = "btn btn-danger" data-dismiss = "modal" data-target = "#get-gear-modal"> Cancel </button>
+                      </div>
+                  </div>
+              </div>
+          </div>
 
         <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
