@@ -57,7 +57,21 @@ div.gear-form-wrapper {
     margin: 2em 0 auto;
     align-content: center;
 }
-form.gearForm { 
-/*    text-align: center;*/
+
+/**** Section 3 Modals  ****/
+div.section-3-cols, 
+div.section-3-cols img,
+div.section-3-cols button  { 
+    display: block;
+    margin: auto;
 }
+
+div.section-3-cols button { 
+    margin: 2em auto;
+    padding-left: 5rem; 
+    padding-right: 5rem;
+    padding: 0.7rem 7rem;
+}
+
+
 

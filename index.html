@@ -136,13 +136,45 @@
             <!--- Section 3 ---> 
             <div class = "lightSection">
                 <div class = "row">
-                    <div class = "col-md-4 col-sm-12"></div>
-                    <div class = "col-md-4 col-sm-12"></div>
-                    <div class = "col-md-4 col-sm-12"></div>
+                    <div class = "col-sm-12">
+                        <div class = "row">
+                            <div class = "col-lg-4 col-sm-12">
+                                <div class = "section-3-cols"> 
+                                    <img class = "img-fluid" src = "assets/kickflip.jpg" alt = "Skater Kick Flipping">
+                                    <div class = "row">
+                                        <div class = "col-sm-12">
+                                            <button type = "button" class = "btn btn-danger" data-toggle = "modal" data-target = "#kick-flip-modal">Kickflips</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class = "col-lg-4 col-sm-12">
+                                <div class = "section-3-cols"> 
+                                    <img class = "img-fluid" src = "assets/360flip.jpg" alt = "Skater 360 Flip">
+                                    <div class = "row">
+                                        <div class = "col-sm-12">
+                                            <button type = "button" class = "btn btn-danger" data-toggle = "modal" data-target = "#360-flip-modal">360 Flips</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class = "col-lg-4 col-sm-12">
+                                <div class = "section-3-cols"> 
+                                    <img class = "img-fluid" src = "assets/bscrook.jpg" alt = "Skater BS Crook">
+                                    <div class = "row">
+                                        <div class = "col-sm-12">
+                                            <button type = "button" class = "btn btn-danger" data-toggle = "modal" data-target = "#bs-crook-modal">BS Crooks</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
         
+        <!-- Modals -->
         <!-- Get Gear Modal --> 
         <div class = "modal fade" id = "get-gear-modal" tabindex = "-1" role = "dialog">
               <div class = "modal-dialog" role = "document">
@@ -184,6 +216,74 @@
               </div>
           </div>
         </div>
+        <!--- Kick Flip Modal ---> 
+        <div class = "modal fade" id = "kick-flip-modal" tabindex = "-1" role = "dialog">
+            <div class = "modal-dialog" role = "document">
+                <div class = "modal-content">
+                    <div class = "modal-header">
+                        <h5 class = "modal-title"> Kickflips </h5>
+                        <button type = "button" class = "close" data-dismiss = "modal" aria-label = "Close"> 
+                            <span aria-hidden = "true"> &times;</span>
+                        </button>
+                    </div>
+                    <div class = "modal-body">
+                        <div class = "container-fluid">
+                            <div class = "tricks-video-wrapper">
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "modal-footer">
+                        <button type = "button" class = "btn btn-danger"data-dismiss = "modal"> Close </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!--- 360 Flip Modal ---> 
+        <div class = "modal fade" id = "360-flip-modal" tabindex = "-1" role = "dialog">
+            <div class = "modal-dialog" role = "document">
+                <div class = "modal-content">
+                    <div class = "modal-header">
+                        <h5 class = "modal-title"> 360 Flips </h5>
+                        <button type = "button" class = "close" data-dismiss = "modal" aria-label = "Close"> <span aria-hidden = "true"> &times;</span></button>
+                    </div>
+                    <div class = "modal-body">
+                        <div class = "container-fluid">
+                            <div class = "tricks-video-wrapper">
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "modal-footer">
+                        <button type = "button" class = "btn btn-danger" data-dismiss = "modal"> Close </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!--- BS Crooks Modal ---> 
+        <div class = "modal fade" id = "bs-crook-modal" tabindex = "-1" role = "dialog"> 
+            <div class = "modal-dialog" role = "document">
+                <div class = "modal-content"> 
+                    <div class = "modal-header">
+                        <h5 class = "modal-title"> BS Crooks </h5>
+                        <button type = "button" class = "close" data-dismiss = "modal" aria-label = "Close"><span aria-hidden = "true">&times;</span></button>
+                    </div>
+                    <div class = "modal-body">
+                        <div class = "container-fluid">
+                            <div class = "tricks-video-wrapper">
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "modal-footer">
+                        <button type = "button" class = "btn btn-danger" data-dismiss = "modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        <!--- Scripts --->
         <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
         <script src = "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.bundle.min.js">
