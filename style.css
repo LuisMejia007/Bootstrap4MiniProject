@@ -74,5 +74,34 @@ div.section-3-cols button {
 /*    text-align: center;*/
 }
 
+/********* Footer Section *********/
+
+
+div.footer-logo-wrapper{ 
+    display: block;
+    width: 100%;
+    margin: 1em auto;
+    text-align: center;
+}
+
+div.favicon-wrapper{ 
+    display: block; 
+    width: 100%;
+    margin: 1em auto;
+    text-align: center;
+}
+
+img.footerImgKickFlip { 
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+.fa { 
+    margin: 10px;
+}
+
+.fa-facebook-square { color:#2277cc; } 
+.fa-instagram { color: white; } 
+.fa-google-plus { color: #d32626; } 
 
 
